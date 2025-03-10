@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 75px;
+    color: rgb(102, 89, 14);
+}
+
+header img{
+    display: flex;
+    justify-content: center;
+    align-content: left;
+    width: 150px;
+    height: 150px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(218, 217, 217);
+    padding: 10px;
+
+}
+
+.container p{
+    background-color: rgb(221, 220, 220);
+    font: 300 16px/18px 'Discord';
+}
+
+.container .info1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+.around_image{
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.container .info1 .h1 {
+    font: 700 50px/48px 'Discord';
+}
+
+.container a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font: 500 14px 'Discord';
+    color: rgb(24, 24, 24);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 600px;
+    font-size: 20px;
+
+}
+
+form div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+form label{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    text-align: right;
+    margin-right: 5px;
+    
+}
+form textarea{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    text-align: left;
+    margin-right: 5px;
+    
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    padding: 5px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color:rgb(218, 217, 217)
+}
